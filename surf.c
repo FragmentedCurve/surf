@@ -1123,6 +1123,7 @@ newview(Client *c, WebKitWebView *rv)
 		   "enable-smooth-scrolling", curconfig[SmoothScrolling].val.i,
 		   "enable-webgl", curconfig[WebGL].val.i,
 		   "media-playback-requires-user-gesture", curconfig[MediaManualPlay].val.i,
+		   "enable-media", FALSE,
 		   NULL);
 /* For more interesting settings, have a look at
  * http://webkitgtk.org/reference/webkit2gtk/stable/WebKitSettings.html */
